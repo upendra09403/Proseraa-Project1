@@ -1,5 +1,6 @@
 public with sharing class HelloWorldApexClass {
     public static void helloMethod(){
-        system.debug('Hello World!!!');
+        system.debug('Hello World!!! Welcome to VS Code!!');
+        system.debug('This Is Awesome!!!');
     }
 }
