@@ -5,5 +5,6 @@ public class SimpleSum {
     public void sumNumbers(){
         c=a+b;
         system.debug('Sum of two numbers is : '+c);
+        system.debug('Sum of two numbers is '+c);
     }
 }
