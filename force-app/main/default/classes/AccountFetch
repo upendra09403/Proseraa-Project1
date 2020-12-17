@@ -1,0 +1,7 @@
+public class FetchingAccInfo{
+public static list<account> getRecord(){
+list<account>acclist=[select id,name,type,industry from account where rating='Hot'];
+system.debug('Account Information '+acclist);
+return acclist;
+}
+}
