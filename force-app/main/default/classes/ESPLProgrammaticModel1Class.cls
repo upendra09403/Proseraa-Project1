@@ -8,6 +8,15 @@ Public class ESPLProgrammaticModel1Class {
             system.debug('The number is an Odd number');
         }
     }
+    public void numberCheck1(integer a){
+        
+        if((a/2)*2==a){
+          system.debug('The number is an Even number');  
+        }
+        else if((a/2)!=a){
+            system.debug('The number is an Odd number');
+        }
+    }
     
     // Ques 2 *******************
     Public static void PrintArray(integer x){
@@ -52,10 +61,12 @@ Public class ESPLProgrammaticModel1Class {
         system.debug('Maximum number is '+max);
         return max;
     }
+    /*
     Public static void FindDuplicate(integer[] nums){
         
     }
-    public static void SumParameter(integer y){
+    */
+    Public static void SumParameter(integer y){
         integer a=0;
         for(integer i=1;i<=y;i++){
             a=a+i;
@@ -64,7 +75,7 @@ Public class ESPLProgrammaticModel1Class {
     }
     
     // Question 5 Simple interest *************
-    public static void SimpleInterest(decimal p,decimal r,decimal t){
+    Public static void SimpleInterest(decimal p,decimal r,decimal t){
         decimal SI;
         SI=p*r*t/100;
         system.debug('Simple interest is '+SI);
